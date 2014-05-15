@@ -87,6 +87,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BmpFile.h" />
+    <ClInclude Include="ChildrenOfImageFile.h" />
     <ClInclude Include="File.h" />
     <ClInclude Include="Folder.h" />
     <ClInclude Include="ImageFile.h" />

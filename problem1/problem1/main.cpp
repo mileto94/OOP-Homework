@@ -3,6 +3,9 @@
 #include "PngFile.h"
 #include "JpgFile.h"
 #include "BmpFile.h"
+
+//#include "TextFile.h"
+#include "ChildrenOfImageFile.h"
 using namespace std;
 
 
@@ -25,4 +28,21 @@ void main()
 	b.PrintData();
 	b.Open();
 
+	PdfFile t("PDF");
+	t.PrintContent();
+	string c = "pdf";
+	t.SetContent(c);
+	t.PrintContent();
+	
+	DocFile d("DOC");
+	c = "doc";
+	d.SetContent(c);
+	d.PrintContent();
+	d.Open();
+
+	TxtFile txt("TXT");
+	c = "txt";
+	txt.SetContent(c);
+	txt.PrintContent();
+	txt.Open();
 }
