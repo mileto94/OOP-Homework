@@ -55,7 +55,8 @@ T accumulate(T* collection, int size)
 	T result = collection[0];
 	for(int i = 1; i < size; i++)
 	{
-		result += collection[i];
+		result += T(collection[i]);
+		//result += static_cast<T>(collection[i]);
 	}
 	return result;
 }
