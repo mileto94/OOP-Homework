@@ -4,7 +4,9 @@
 #include "JpgFile.h"
 #include "BmpFile.h"
 
-#include "ChildrenOfTextFile.h"
+#include "TxtFile.h"
+#include "PdfFile.h"
+#include "DocFile.h"
 using namespace std;
 
 
